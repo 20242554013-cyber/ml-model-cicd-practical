@@ -14,7 +14,7 @@ def train_model():
     )
 
     model = RandomForestClassifier(
-        n_estimators=100,
+        n_estimators=50,
         random_state=42
     )
 
